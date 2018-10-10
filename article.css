@@ -1,0 +1,32 @@
+body {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 500px
+  padding: 50px 100px;
+  color: blue;
+  text-align: center;
+  padding: 30px 200px;
+}
+article{
+  max-width: inherit;
+}
+figure{
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+  }
+img.figcaption {
+    text-align: center;
+  }
+img {
+    max-width: 100%;
+    align: center;
+}
+.byline{
+    text-align: center;
+}
+.dateline{
+  text-align: center;
+}
+p{
+  text-align: left
+}
