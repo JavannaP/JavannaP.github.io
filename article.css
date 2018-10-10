@@ -1,8 +1,9 @@
 body {
   font-size: 500px
   padding: 50px 100px;
-  color: blue;
+  color: black;
   padding: 30px 200px;
+  text-align: center;
 }
 
 article{
@@ -14,6 +15,9 @@ figure{
     font-size: 15px;
     text-align: center;
   }
+figcaption {
+  text-align: center;
+}
 img {
     max-width: 100%;
     align: center;
