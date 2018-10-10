@@ -1,13 +1,28 @@
+
 body {
-  font-size: 500px
   padding: 50px 100px;
   color: black;
-  padding: 30px 200px;
   text-align: center;
+}
+
+h1{
+  font-size: 75px;
 }
 
 article{
   max-width: inherit;
+}
+
+.byline{
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.dateline {
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
 }
 
 figure{
@@ -15,13 +30,7 @@ figure{
     font-size: 15px;
     text-align: center;
   }
-figcaption {
-  text-align: center;
-}
-img {
-    max-width: 100%;
-    align: center;
-}
+
 p{
   text-align: left
 }
