@@ -6,9 +6,11 @@ body {
   text-align: center;
   padding: 30px 200px;
 }
+
 article{
   max-width: inherit;
 }
+
 figure{
     font-style: italic;
     font-size: 15px;
