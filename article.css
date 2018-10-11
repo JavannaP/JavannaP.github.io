@@ -1,36 +1,47 @@
 
 body {
-  padding: 50px 100px;
-  color: black;
-  text-align: center;
+  
 }
 
 h1{
-  font-size: 75px;
+  font-size: 55px;
+  text-align: center;
+  font-family: Georgia, sans-serif, bold;
 }
 
-article{
-  max-width: inherit;
+p {
+  font-family: Georgia, sans-serif;
 }
 
 .byline{
   text-align: center;
-  font-family: Arial;
-  font-size: 25px;
+  font-family: Georgia;
+  font-size: 20px;
 }
 
 .dateline {
   text-align: center;
-  font-family: Arial;
-  font-size: 25px;
+  font-family: Georgia;
+  font-size: 20px;
 }
 
-figure{
+figure {
     font-style: italic;
     font-size: 15px;
     text-align: center;
   }
 
-p{
-  text-align: left
+img {
+  align: center;
 }
+
+figcaption {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.link { color: #0000FF; } /* CSS link color (blue) */
+.link:hover { color: #000000; } /* CSS link hover (grey) */
