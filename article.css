@@ -1,5 +1,5 @@
 body {
-padding: 20px 20px; 
+padding: 20px 120px;
 }
 
 h1 {
@@ -23,13 +23,10 @@ p {
 .byline {
   text-align: center;
   font-family: Georgia;
-  font-size: 20px;
 }
 
 .dateline {
   text-align: center;
-  font-family: Georgia;
-  font-size: 20px;
 }
 
 .center {
