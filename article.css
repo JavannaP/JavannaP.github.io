@@ -16,8 +16,12 @@ h2 {
 }
 
 img {
-  align: center;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
 }
+
 
 p {
   font-family: Georgia;
@@ -31,15 +35,6 @@ p {
 
 .dateline {
   text-align: center;
-}
-
-.center {
-    text-align: center;
-    align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
 }
 
 .link { color: #0000FF; } /* CSS link color (blue) */
