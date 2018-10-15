@@ -1,21 +1,32 @@
-h1{
+body {
+padding: 20px 20px; 
+}
+
+h1 {
   text-align: center;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia;
+  font-size: 105px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  padding: inherit;
 }
 
 p {
-  font-family: Georgia, sans-serif;
+  font-family: Georgia;
   text-align: left;
 }
 
-.byline{
+.byline {
   text-align: center;
   font-family: Georgia;
   font-size: 20px;
 }
 
 .dateline {
-
   text-align: center;
   font-family: Georgia;
   font-size: 20px;
@@ -28,13 +39,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-}
-
-h2{
-  font-size: 10px;
-  text-align: center;
-  font-family: Georgia, sans-serif;
-  font-style: italic;
 }
 
 .link { color: #0000FF; } /* CSS link color (blue) */
