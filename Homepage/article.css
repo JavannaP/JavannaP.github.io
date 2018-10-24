@@ -7,6 +7,30 @@ body {
   max-width: 1000px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: white;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
 .otherphotos {
   max-width: 500px;
 }
@@ -15,9 +39,9 @@ body {
   text-align: center;
 }
 
-
-#header span {
-    margin: 0 10px;
+div {
+  display: inline-block;
+  align-items: center;
 }
 
 h1 {
@@ -46,17 +70,6 @@ p {
   text-align: center;
   font-size: 40px;
   font-weight: bold;
-}
-
-.requirements {
-  font-style: italic;
-  font-size: 20px;
-}
-
-.protips {
-  font-style: italic;
-  font-size: 20px;
-  padding-bottom: 35px;
 }
 
 figcaption p {
