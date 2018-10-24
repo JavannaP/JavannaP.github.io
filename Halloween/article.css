@@ -1,7 +1,6 @@
 body {
   font-family: 'Ubuntu', sans-serif;
   padding: 20px 20px 0px 20px;
-  background-color: #141d26;
 }
 
 .coverphoto {
@@ -19,34 +18,45 @@ body {
 
 #header span {
     margin: 0 10px;
-    color: white;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 50px;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   align: center;
-  color: grey;
 }
 
-div img {
-  display: inline-block;
-  margin-right: 5px;
-  color: white;
-}
 
 h2 {
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  font-style: italic;
+  color: grey;
+  font-weight: normal;
 }
 
 p {
   text-align: left;
-  font-size: 15px;
-  color: white;
+  font-size: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.requirements {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.protips {
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 35px;
 }
 
 figcaption p {
@@ -59,23 +69,16 @@ img {
   margin-right: auto;
   }
 
-  .border {
-    border-style: groove;
-    border-width: thick;
-    border-color: #d3d3d3;
-    border-radius: 15px;
-  }
-
-  .text {
-    padding-bottom: 30px;
-  }
-
 .byline {
   text-align: center;
+  font-size: 20px;
+  color: black;
 }
 
 .dateline {
   text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
 }
 
 .link { color: #blue } /* CSS link color (blue) */
